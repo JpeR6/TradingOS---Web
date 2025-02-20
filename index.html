@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradersOS</title>
+    <style>
+        /* Imagen de fondo */
+        body {
+            background-image: url('https://optiver.com/wp-content/uploads/2023/11/AdobeStock_667233159-scaled.jpeg'); /* Sustituir con tu imagen */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            filter: brightness(70%);
+        }
+
+        /* Fondo negro semi opaco para el título y descripción */
+        .fondo-negro {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20%; /* Ajusté este valor para subir el contenedor */
+            position: absolute; /* Para centrar el contenedor en la pantalla */
+            top: 50%; /* Centrado vertical */
+            left: 50%; /* Centrado horizontal */
+            transform: translate(-50%, -50%); /* Centrado exacto */
+            width: 80%; /* Ancho del contenedor */
+        }
+
+        /* Estilo para el título */
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        h4 {
+            font-size: 1.2em;
+        }
+
+        /* Menú desplegable */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #575757;
+        }
+
+        /* Enlaces */
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 60px;
+            height: auto;
+            z-index: 1000;
+           }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="logo_link">
+    <img src="https://static.vecteezy.com/system/resources/previews/021/016/955/original/trading-icon-trading-graphic-symbol-trade-logo-design-trade-mark-logo-vector.jpg" alt="Menú" class="logo">
+    </a>
+    <!-- Título y descripción sobre fondo negro semi opaco -->
+    <div class="fondo-negro">
+        <h1>Welcome to TradersOS</h1>
+        <h4>Welcome to the best operating system designed specifically for those traders who wish to boost their careers
+        and achieve the greatest benefits from an operating system optimized for the performance of trading applications and
+        the ease of obtaining the information necessary to obtain a significant advantage in the financial markets.</h4>
+    </div>
+
+    <!-- Menú desplegable de Índice -->
+    <div class="dropdown">
+        <h2>Index</h2>
+        <div class="dropdown-content">
+            <a href="Bases_legales.html">Legal agreement</a>
+            <a href="system_requirements.html">Requirements</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <!-- Menú desplegable de Herramientas -->
+    <div class="dropdown">
+        <h2>Herramientas</h2>
+        <div class="dropdown-content">
+            <a href="https://www.forexfactory.com/">Forexfactory</a>
+            <a href="https://www.tradingview.com/chart/yxovhvV5/?symbol=FX%3AEURUSD">EURUSD graphic</a>
+            <a href="https://es.tradingview.com/chart/yxovhvV5/?symbol=FX%3ASPX500">SPX500 graphic</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
