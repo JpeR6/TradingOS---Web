@@ -1,0 +1,19 @@
+TradingOS Shell
+
+Overview
+
+TradingOS Shell is a custom Linux-based shell designed specifically for our proprietary operating system, TradingOS. This shell provides a seamless experience for traders, offering a set of specialized commands tailored to financial and trading operations while maintaining the functionality of a traditional Linux shell.
+
+Features
+
+Custom-built shell for TradingOS.
+
+Supports standard Linux shell commands.
+
+Includes specialized trading-related commands.
+
+Provides two types of help commands:
+
+help: Displays standard Linux shell help.
+
+ayuda: Lists the custom commands available in TradingOS Shell.
